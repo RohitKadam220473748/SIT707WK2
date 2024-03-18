@@ -90,7 +90,7 @@ public class SeleniumOperations {
 		 * Identify button 'Create account' and click to submit using Selenium API.
 		 */
 		// Write code
-		WebElement createAccountButton = driver.findElement(By.cssSelector(".ActionButton__StyledButton-r7njn9-0.iJIqgV"));
+		WebElement createAccountButton = driver.findElement(By.className("ActionButton__StyledButton-r7njn9-0"));
 		createAccountButton.click();
 		/*
 		 * Take screenshot using selenium API.
